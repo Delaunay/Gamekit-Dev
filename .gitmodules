@@ -1,0 +1,3 @@
+[submodule "Plugins/Gamekit"]
+	path = Plugins/Gamekit
+	url = https://github.com/Delaunay/Gamekit.git
