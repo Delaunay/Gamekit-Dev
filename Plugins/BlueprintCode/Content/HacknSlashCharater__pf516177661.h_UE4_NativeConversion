@@ -1,0 +1,41 @@
+#pragma once
+#include "Blueprint/BlueprintSupport.h"
+#include "Runtime/Engine/Classes/Engine/EngineTypes.h"
+#include "Runtime/Engine/Classes/GameFramework/Character.h"
+class UWidgetComponent;
+class UCameraComponent;
+class USpringArmComponent;
+class UFloatingHealth_C__pf197907997;
+#include "HacknSlashCharater__pf516177661.generated.h"
+UCLASS(config=Game, Blueprintable, BlueprintType, meta=(ReplaceConverted="/Game/HacknSlash/HacknSlashCharater.HacknSlashCharater_C", OverrideNativeName="HacknSlashCharater_C"))
+class AHacknSlashCharater_C__pf516177661 : public ACharacter
+{
+public:
+	GENERATED_BODY()
+	UPROPERTY(BlueprintReadWrite, NonTransactional, meta=(Category="Default", OverrideNativeName="Widget"))
+	UWidgetComponent* bpv__Widget__pf;
+	UPROPERTY(BlueprintReadWrite, NonTransactional, meta=(Category="Default", OverrideNativeName="Camera"))
+	UCameraComponent* bpv__Camera__pf;
+	UPROPERTY(BlueprintReadWrite, NonTransactional, meta=(Category="Camera", OverrideNativeName="SpringArm"))
+	USpringArmComponent* bpv__SpringArm__pf;
+	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_DynamicCast_AsFloating_Health"))
+	UFloatingHealth_C__pf197907997* b0l__K2Node_DynamicCast_AsFloating_Health__pf;
+	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_DynamicCast_bSuccess"))
+	bool b0l__K2Node_DynamicCast_bSuccess__pf;
+	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_Event_DeltaSeconds"))
+	float b0l__K2Node_Event_DeltaSeconds__pf;
+	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="CallFunc_K2_SetWorldRotation_SweepHitResult"))
+	FHitResult b0l__CallFunc_K2_SetWorldRotation_SweepHitResult__pf;
+	AHacknSlashCharater_C__pf516177661(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
+	virtual void PostLoadSubobjects(FObjectInstancingGraph* OuterInstanceGraph) override;
+	static void __CustomDynamicClassInitialization(UDynamicClass* InDynamicClass);
+	static void __StaticDependenciesAssets(TArray<FBlueprintDependencyData>& AssetsToLoad);
+	static void __StaticDependencies_DirectlyUsedAssets(TArray<FBlueprintDependencyData>& AssetsToLoad);
+	void bpf__ExecuteUbergraph_HacknSlashCharater__pf_0(int32 bpp__EntryPoint__pf);
+	void bpf__ExecuteUbergraph_HacknSlashCharater__pf_1(int32 bpp__EntryPoint__pf);
+	UFUNCTION(meta=(Comment="/** Event called every frame, if ticking is enabled */", DisplayName="Tick", ToolTip="Event called every frame, if ticking is enabled", CppFromBpEvent, OverrideNativeName="ReceiveTick"))
+	virtual void bpf__ReceiveTick__pf(float bpp__DeltaSeconds__pf);
+	UFUNCTION(meta=(Comment="/** Event when play begins for this actor. */", DisplayName="BeginPlay", ToolTip="Event when play begins for this actor.", CppFromBpEvent, OverrideNativeName="ReceiveBeginPlay"))
+	virtual void bpf__ReceiveBeginPlay__pf();
+public:
+};
