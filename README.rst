@@ -5,3 +5,9 @@ You are probably looking for `Gamekit Pluging <https://github.com/Delaunay/Gamek
 This is the Unreal Project I use for the pluging development
 
 You will have issues with missing assets!
+
+
+Assets Used For testing
+-----------------------
+
+*
