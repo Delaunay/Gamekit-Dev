@@ -1,0 +1,12 @@
+[
+    {
+        "key": "ctrl+b",
+        "command": "workbench.action.tasks.runTask",
+        "args": "ChessyEditor Win64 Development Build"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.debug.run",
+        "args": "ChessyEditor (Development)"
+    }
+]

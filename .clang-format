@@ -1,6 +1,6 @@
 BasedOnStyle: LLVM
 IndentWidth: 4
-ColumnLimit: 100
+ColumnLimit: 120
 AlignConsecutiveAssignments: true
 AlignConsecutiveDeclarations: true
 AlignConsecutiveMacros: true
@@ -32,3 +32,19 @@ SpaceBeforeCtorInitializerColon: false
 SpaceBeforeInheritanceColon: false
 SpaceBeforeRangeBasedForLoopColon: false
 # SpacesBeforeTrailingComments: 2 
+
+# Unreal Engine Functions are usually quite long
+# force the arguments to be on separate line
+
+# Make the Indent bigger so arguments are on a different
+# level
+ContinuationIndentWidth: 8
+BinPackArguments: false
+BinPackParameters: false
+AlignAfterOpenBracket: Align
+AllowAllParametersOfDeclarationOnNextLine: false
+
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakAfterReturnType: None
+PenaltyReturnTypeOnItsOwnLine: 1000
+BreakBeforeBraces: Allman
