@@ -6,7 +6,12 @@ on: [push]
 # https://docs.unrealengine.com/4.27/en-US/SharingAndReleasing/Containers/ContainersQuickStart/
 jobs:
   cooking:
-    runs-on: ghcr.io/epicgames/unreal-engine:dev-4.27
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/epicgames/unreal-engine:dev-4.27
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.PRIVATE_ACCESS_TOKEN }
     
     steps:
       - uses: actions/checkout@v1
