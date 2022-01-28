@@ -2,8 +2,7 @@ name: tests
 
 on: [push]
 
-# see
-# https://docs.unrealengine.com/4.27/en-US/SharingAndReleasing/Containers/ContainersQuickStart/
+# see https://docs.unrealengine.com/4.27/en-US/SharingAndReleasing/Containers/ContainersQuickStart/
 jobs:
   cooking:
     runs-on: ubuntu-latest
