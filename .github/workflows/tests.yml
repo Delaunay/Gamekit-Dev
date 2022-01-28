@@ -11,7 +11,7 @@ jobs:
       image: ghcr.io/epicgames/unreal-engine:dev-4.27
       credentials:
         username: ${{ github.actor }}
-        password: ${{ secrets.PRIVATE_ACCESS_TOKEN }}
+        password: ${{ secrets.GITHUB_TOKEN }}
     
     steps:
       - uses: actions/checkout@v1
