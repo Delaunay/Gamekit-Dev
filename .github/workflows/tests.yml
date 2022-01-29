@@ -17,8 +17,9 @@ jobs:
 
       - name: Cook
         run: |
-          pwd
-          ls
+          # we are in /__w/Gamekit-Dev/Gamekit-Dev
+          whoami
+          ls -all /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh
           export uebp_LogFolder=/github/workspace/UAT_Logs
           mkdir -p $uebp_LogFolder
           /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh \
