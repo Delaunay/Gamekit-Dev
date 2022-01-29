@@ -46,7 +46,7 @@ jobs:
             -platform=Linux                                        \
             -clientconfig=Shipping                                 \
             -serverconfig=Shipping                                 \
-            -project=./Chessy.uproject                               \
+            -project="$(pwd)/Chessy.uproject"                      \
             -noP4 -nodebuginfo -allmaps                            \
             -cook -build -stage -prereqs -pak -archive             \
             -archivedirectory=Cooked/
