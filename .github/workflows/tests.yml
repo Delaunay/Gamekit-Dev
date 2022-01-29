@@ -41,6 +41,7 @@ jobs:
           mkdir -p $LOGS
           mkdir -p $COOKED
 
+          whoami
           uebp_LogFolder=$LOGS /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh \
             BuildCookRun                                           \
             -unattended                                            \
