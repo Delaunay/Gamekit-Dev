@@ -18,8 +18,10 @@ jobs:
     
     steps:
       - uses: actions/checkout@v2
-        with:
-          submodules: true
+        # Does not work 
+        #   Input 'submodules' not supported when falling back to download using the GitHub REST API
+        # with:
+        #  submodules: true
 
       - name: Cook
         run: |
@@ -38,6 +40,9 @@ jobs:
           # Permissions are 
           # -rwxr-xr-x 1 ue4 ue4 3336 Dec 10 02:14
           # ls -all /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh
+          
+          # Fetch our Gamekit plugin
+          git submodule update --init
           
           export uebp_LogFolder=./UAT_Logs
           mkdir -p $uebp_LogFolder
