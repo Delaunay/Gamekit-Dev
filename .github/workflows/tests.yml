@@ -17,8 +17,11 @@ jobs:
 
       - name: Cook
         run: |
-          mkdir -p UATLogs
-          uebp_LogFolder=UATLogs /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh \
+          pwd
+          ls
+          export uebp_LogFolder=/github/workspace/UAT_Logs
+          mkdir -p $uebp_LogFolder
+          /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh \
             BuildCookRun                                           \
             -unattended                                            \
             -utf8output                                            \
