@@ -14,6 +14,7 @@ jobs:
       
       # Github expects us to be root, not ue4
       # ue4 wont be able to write anything anywhere
+      # NB: Cooking refuse to work as root
       options: "-u root"
     
     steps:
@@ -48,8 +49,22 @@ jobs:
           rm -rf Plugins/Gamekit
           git clone https://github.com/Delaunay/Gamekit.git Plugins/Gamekit
           
-          export uebp_LogFolder=./UAT_Logs
+          export uebp_LogFolder="$(pwd)/UAT_Logs"
           mkdir -p $uebp_LogFolder
+          mkdir -p "$(pwd)/Cooked"
+          
+          # make ue4 the owner so UAT can write to it
+          chown ue4:ue4 $uebp_LogFolder
+          chown ue4:ue4 "$(pwd)/Cooked"
+          
+          # NB Intermediate folders should also have the right permissions
+          # /project/Intermediate
+          # /project/Binaries/Linux/
+          # /project/Plugins/name/Intermediate
+          # /project/Plugins/name/Binaries/Linux/
+          
+          # Change to ue4 user
+          su ue4
           /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh \
             BuildCookRun                                           \
             -unattended                                            \
@@ -60,7 +75,7 @@ jobs:
             -project="$(pwd)/Chessy.uproject"                      \
             -noP4 -nodebuginfo -allmaps                            \
             -cook -build -stage -prereqs -pak -archive             \
-            -archivedirectory=Cooked/
+            -archivedirectory="$(pwd)/Cooked"
 
       - name: Upload
         uses: actions/upload-artifact@v2
