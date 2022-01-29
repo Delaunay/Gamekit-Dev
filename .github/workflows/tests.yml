@@ -7,7 +7,7 @@ jobs:
   cooking:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/epicgames/unreal-engine:dev-4.27
+      image: ghcr.io/epicgames/unreal-engine:dev-slim-4.27
       credentials:
         username: ${{ github.actor }}
         password: ${{ secrets.CONTAINER_REGISTRY_PAT }}
