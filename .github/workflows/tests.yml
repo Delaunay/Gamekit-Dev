@@ -37,12 +37,11 @@ jobs:
           export COOKED="$(pwd)/Cooked"
           export LOGS="$(pwd)/Saved/UAT"
 
-          su ue4
-          mkdir -p $LOGS
-          mkdir -p $COOKED
+          runuser -u ue4 -- mkdir -p $LOGS
+          runuser -u ue4 -- mkdir -p $COOKED
 
-          whoami
-          uebp_LogFolder=$LOGS /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh \
+          export uebp_LogFolder=$LOGS
+          runuser -u ue4 -- /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh \
             BuildCookRun                                           \
             -unattended                                            \
             -utf8output                                            \
