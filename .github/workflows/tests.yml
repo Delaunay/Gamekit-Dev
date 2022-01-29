@@ -18,6 +18,8 @@ jobs:
       - name: Cook
         run: |
           ls
+          /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh BuildCookRun -List
+          /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh BuildCookRun -Help
           /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh \
             BuildCookRun                                           \
             -utf8output                                            \
