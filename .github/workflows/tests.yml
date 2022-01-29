@@ -11,71 +11,47 @@ jobs:
       credentials:
         username: ${{ github.actor }}
         password: ${{ secrets.CONTAINER_REGISTRY_PAT }}
-      
+
       # Github expects us to be root, not ue4
       # ue4 wont be able to write anything anywhere
       # NB: Cooking refuse to work as root
       options: "-u root"
-    
+
     steps:
+      - name: Update Git
+        run: |
+          sudo add-apt-repository ppa:git-core/ppa -y
+          sudo apt-get update
+          sudo apt-get install git -y
+          git --version
+
       - uses: actions/checkout@v2
-        # Does not work 
-        #   Input 'submodules' not supported when falling back to download using the GitHub REST API
-        # with:
-        #  submodules: true
+        with:
+          submodules: true
 
       - name: Cook
         run: |
-          pwd       # We are in /__w/Gamekit-Dev/Gamekit-Dev
-          # whoami  # We are ue4
-                    # root if -u root is passed
-                    
-          # Our files have a nobody as user
-          #
-          # drwxr-xr-x  4 1001 121  4096 Jan 29 01:34 Plugins
-          # -rw-r--r--  1 1001 121   298 Jan 29 01:34 README.rst
-          # drwxr-xr-x  2 1001 121  4096 Jan 29 01:34 Shaders
-          # drwxr-xr-x  3 1001 121  4096 Jan 29 01:34 Source
-          ls -all
-          
-          # Permissions are 
-          # -rwxr-xr-x 1 ue4 ue4 3336 Dec 10 02:14
-          # ls -all /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh
-          
-          # we are not in a git repository ?
-          # git submodule update --init
-          
-          # Fetch our Gamekit plugin
-          rm -rf Plugins/Gamekit
-          git clone https://github.com/Delaunay/Gamekit.git Plugins/Gamekit
-          
-          export uebp_LogFolder="$(pwd)/UAT_Logs"
-          mkdir -p $uebp_LogFolder
-          mkdir -p "$(pwd)/Cooked"
-          
-          # make ue4 the owner so UAT can write to it
-          chown ue4:ue4 $uebp_LogFolder
-          chown ue4:ue4 "$(pwd)/Cooked"
-          
-          # NB Intermediate folders should also have the right permissions
-          # /project/Intermediate
-          # /project/Binaries/Linux/
-          # /project/Plugins/name/Intermediate
-          # /project/Plugins/name/Binaries/Linux/
-          
-          # Change to ue4 user
+          # Paths need to be absolute
+          # or they are considered relative to the Engine
+          export PROJECT="$(pwd)/Chessy.uproject"
+          export COOKED="$(pwd)/Cooked"
+          export LOGS="$(pwd)/Saved/UAT"
+
           su ue4
-          /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh \
+          mkdir -p $LOGS
+          mkdir -p $COOKED
+
+          uebp_LogFolder=$LOGS /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh \
             BuildCookRun                                           \
             -unattended                                            \
             -utf8output                                            \
             -platform=Linux                                        \
             -clientconfig=Shipping                                 \
             -serverconfig=Shipping                                 \
-            -project="$(pwd)/Chessy.uproject"                      \
+            -project=$PROJECT                    \
             -noP4 -nodebuginfo -allmaps                            \
             -cook -build -stage -prereqs -pak -archive             \
-            -archivedirectory="$(pwd)/Cooked"
+            -archivedirectory=$COOKED
 
       - name: Upload
         uses: actions/upload-artifact@v2
