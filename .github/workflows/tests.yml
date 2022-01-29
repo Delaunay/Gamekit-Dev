@@ -37,19 +37,7 @@ jobs:
           export COOKED="$(pwd)/Cooked"
           export LOGS="$(pwd)/Saved/UAT"
 
-          export PROJECT_INTERM="$(pwd)/Intermediate"
-          export GAMEKIT_INTERM="$(pwd)/Plugins/Gamekit/Intermediate"
-          export BLUECODE_INTERM="$(pwd)/Plugins/BlueprintCode/Intermediate"
-
-          export PROJECT_BIN="$(pwd)/Binaries"
-          export GAMEKIT_BIN="$(pwd)/Plugins/Gamekit/Binaries"
-          export BLUECODE_BIN="$(pwd)/Plugins/BlueprintCode/Binaries"
-
-          mkdir -p $LOGS $COOKED $PROJECT_INTERM $GAMEKIT_INTERM $BLUECODE_INTERM\
-            $PROJECT_BIN $GAMEKIT_BIN $BLUECODE_BIN
-
-          chown ue4:ue4 $LOGS $COOKED $PROJECT_INTERM $GAMEKIT_INTERM $BLUECODE_INTERM\
-            $PROJECT_BIN $GAMEKIT_BIN $BLUECODE_BIN
+          chown -R ue4 $(pwd)
 
           export uebp_LogFolder=$LOGS
           runuser -u ue4 -- /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh \
