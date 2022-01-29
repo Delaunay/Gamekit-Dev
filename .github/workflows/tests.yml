@@ -23,7 +23,7 @@ jobs:
         run: |
           pwd       # We are in /__w/Gamekit-Dev/Gamekit-Dev
           # whoami  # We are ue4
-                    # 1001 if -u 1001 is passed
+                    # root if -u root is passed
                     
           # Our files have a nobody as user
           #
