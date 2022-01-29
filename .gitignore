@@ -27,3 +27,5 @@ Plugins/Gamekit/Content/Textures/IconsSkills
 MOBA_GamekitUnits.json
 MOBA_GamekitAbilies.json
 enc_temp_folder/
+UAT_Logs/
+Cooked/
