@@ -41,8 +41,12 @@ jobs:
           # -rwxr-xr-x 1 ue4 ue4 3336 Dec 10 02:14
           # ls -all /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh
           
+          # we are not in a git repository ?
+          # git submodule update --init
+          
           # Fetch our Gamekit plugin
-          git submodule update --init
+          rm -rf Plugins/Gamekit
+          git clone https://github.com/Delaunay/Gamekit.git Plugins/Gamekit
           
           export uebp_LogFolder=./UAT_Logs
           mkdir -p $uebp_LogFolder
