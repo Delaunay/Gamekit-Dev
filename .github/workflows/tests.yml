@@ -48,7 +48,7 @@ jobs:
             -platform=Linux                                        \
             -clientconfig=Shipping                                 \
             -serverconfig=Shipping                                 \
-            -project=$PROJECT                    \
+            -project=$PROJECT                                      \
             -noP4 -nodebuginfo -allmaps                            \
             -cook -build -stage -prereqs -pak -archive             \
             -archivedirectory=$COOKED
