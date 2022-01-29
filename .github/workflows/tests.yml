@@ -12,9 +12,9 @@ jobs:
         username: ${{ github.actor }}
         password: ${{ secrets.CONTAINER_REGISTRY_PAT }}
       
-      # For us to be user 1001 else we will be ue4
-      # and we wont be able to write anything anywhere
-      options: "-u 1001"
+      # Github expects us to be root, not ue4
+      # ue4 wont be able to write anything anywhere
+      options: "-u root"
     
     steps:
       - uses: actions/checkout@v1
