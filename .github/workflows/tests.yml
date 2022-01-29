@@ -11,23 +11,32 @@ jobs:
       credentials:
         username: ${{ github.actor }}
         password: ${{ secrets.CONTAINER_REGISTRY_PAT }}
+      
+      # For us to be user 1001 else we will be ue4
+      # and we wont be able to write anything anywhere
+      options: "-u 1001"
     
     steps:
       - uses: actions/checkout@v1
 
       - name: Cook
         run: |
-          # pwd       # We are in /__w/Gamekit-Dev/Gamekit-Dev
-          # whoami    # We are ue4
+          pwd       # We are in /__w/Gamekit-Dev/Gamekit-Dev
+          whoami    # We are ue4
         
-          # 
+          # Our files have a nobody as user
+          #
+          # drwxr-xr-x  4 1001 121  4096 Jan 29 01:34 Plugins
+          # -rw-r--r--  1 1001 121   298 Jan 29 01:34 README.rst
+          # drwxr-xr-x  2 1001 121  4096 Jan 29 01:34 Shaders
+          # drwxr-xr-x  3 1001 121  4096 Jan 29 01:34 Source
           ls -all
           
           # Permissions are 
           # -rwxr-xr-x 1 ue4 ue4 3336 Dec 10 02:14
           # ls -all /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh
           
-          export uebp_LogFolder=/github/workspace/UAT_Logs
+          export uebp_LogFolder=./UAT_Logs
           mkdir -p $uebp_LogFolder
           /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh \
             BuildCookRun                                           \
