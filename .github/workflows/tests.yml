@@ -18,10 +18,7 @@ jobs:
       - name: Cook
         run: |
           ls
-          mkdir -p "/github/home/Library/Logs/Unreal Engine/LocalBuildLogs"
-          ls /github/home/Library/Logs
-          ls /github/home/Library/Logs/Unreal Engine
-          ls /github/home/Library/Logs/Unreal Engine/LocalBuildLogs
+          cat /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh
           /home/ue4/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh \
             BuildCookRun                                           \
             -unattended                                            \
