@@ -31,8 +31,7 @@ jobs:
 
       - name: Cook
         run: |
-          # Paths need to be absolute
-          # or they are considered relative to the Engine
+          # Paths need to be absolute or they are considered relative to the Engine
           export PROJECT="$(pwd)/Chessy.uproject"
           export COOKED="$(pwd)/Cooked"
           export LOGS="$(pwd)/Saved/UAT"
