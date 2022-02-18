@@ -7,6 +7,6 @@ public class ChessyTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange(new[] {"Gamekit", "Chessy"});
+		ExtraModuleNames.AddRange(new[] {"Gamekit", "Chessy" });
 	}
 }
