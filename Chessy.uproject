@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{44C69C2F-44E5-9AA2-6723-DCA5E540AF0B}",
+	"EngineAssociation": "{2D4A449E-4019-A940-3B48-56BCFCE8A219}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -167,6 +167,30 @@
 		{
 			"Name": "XCodeSourceCodeAccess",
 			"Enabled": false
+		},
+		{
+			"Name": "CommonUI",
+			"Enabled": true
+		},
+		{
+			"Name": "SubversionSourceControl",
+			"Enabled": false
+		},
+		{
+			"Name": "PlasticSourceControl",
+			"Enabled": false
+		},
+		{
+			"Name": "ImagePlate",
+			"Enabled": true
+		},
+		{
+			"Name": "PerformanceMonitor",
+			"Enabled": true
+		},
+		{
+			"Name": "Gauntlet",
+			"Enabled": true
 		}
 	]
 }
