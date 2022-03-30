@@ -1,4 +1,4 @@
-// BSD 3-Clause License Copyright (c) 2021, Pierre Delaunay All rights reserved.
+// BSD 3-Clause License Copyright (c) 2022, Pierre Delaunay All rights reserved.
 
 #pragma once
 
@@ -7,9 +7,9 @@
 
 DECLARE_LOG_CATEGORY_EXTERN(LogChessy, Log, All);
 
-
-class FIChessyModule: public IModuleInterface {
-public:
+class FIChessyModule: public IModuleInterface
+{
+    public:
     virtual void StartupModule() override;
 
     virtual void ShutdownModule() override;

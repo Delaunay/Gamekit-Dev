@@ -1,4 +1,4 @@
-// BSD 3-Clause License Copyright (c) 2021, Pierre Delaunay All rights reserved.
+// BSD 3-Clause License Copyright (c) 2022, Pierre Delaunay All rights reserved.
 
 #pragma once
 
@@ -7,11 +7,10 @@
 
 DECLARE_LOG_CATEGORY_EXTERN(LogBlueprintCode, Log, All);
 
-class FBlueprintCodeModule : public IModuleInterface
+class FBlueprintCodeModule: public IModuleInterface
 {
-public:
-
-	/** IModuleInterface implementation */
-	virtual void StartupModule() override;
-	virtual void ShutdownModule() override;
+    public:
+    /** IModuleInterface implementation */
+    virtual void StartupModule() override;
+    virtual void ShutdownModule() override;
 };
