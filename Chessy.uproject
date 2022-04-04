@@ -145,10 +145,6 @@
 			"Enabled": false
 		},
 		{
-			"Name": "ReplicationGraph",
-			"Enabled": true
-		},
-		{
 			"Name": "RiderSourceCodeAccess",
 			"Enabled": false
 		},
