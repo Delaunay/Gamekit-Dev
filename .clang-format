@@ -6,12 +6,12 @@ AlignConsecutiveDeclarations: true
 AlignConsecutiveMacros: true
 AlignEscapedNewlines: true
 AlignTrailingComments: true
-AllowAllArgumentsOnNextLine: true 
+AllowAllArgumentsOnNextLine: true
 AllowAllParametersOfDeclarationOnNextLine: true
 AllowShortBlocksOnASingleLine: Never
 AllowShortEnumsOnASingleLine: false
 IndentPPDirectives: AfterHash
-# PackConstructorInitializers: CurrentLine 
+# PackConstructorInitializers: CurrentLine
 # ReferenceAlignmentStyle: Left
 DerivePointerAlignment: false
 PointerAlignment: Left
@@ -22,7 +22,7 @@ Cpp11BracedListStyle: true
 PointerAlignment: Right
 SpaceInEmptyParentheses: false
 AccessModifierOffset: 0
-SpaceBeforeParens: ControlStatements 
+SpaceBeforeParens: ControlStatements
 AlwaysBreakTemplateDeclarations: true
 BraceWrapping:
   AfterEnum: true
@@ -31,11 +31,9 @@ SpaceBeforeCaseColon: false
 SpaceBeforeCtorInitializerColon: false
 SpaceBeforeInheritanceColon: false
 SpaceBeforeRangeBasedForLoopColon: false
-# SpacesBeforeTrailingComments: 2 
-
+# SpacesBeforeTrailingComments: 2
 # Unreal Engine Functions are usually quite long
 # force the arguments to be on separate line
-
 # Make the Indent bigger so arguments are on a different
 # level
 ContinuationIndentWidth: 8
