@@ -29,19 +29,19 @@
 	"Plugins": [
 		{
 			"Name": "CodeView",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "BlueprintStats",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "CodeEditor",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "DataCharts",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "GameplayAbilities",
@@ -49,15 +49,15 @@
 		},
 		{
 			"Name": "GLTFImporter",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "RemoteDatabaseSupport",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "Water",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "SteamVR",
@@ -70,15 +70,11 @@
 		},
 		{
 			"Name": "FieldSystemPlugin",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "DisasterRecoveryClient",
-			"Enabled": true
-		},
-		{
-			"Name": "NiagaraExtras",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "CLionSourceCodeAccess",
@@ -89,12 +85,8 @@
 			"Enabled": false
 		},
 		{
-			"Name": "DatasmithContent",
-			"Enabled": false
-		},
-		{
 			"Name": "EditorScriptingUtilities",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "EnhancedInput",
@@ -141,24 +133,16 @@
 			]
 		},
 		{
-			"Name": "PerforceSourceControl",
-			"Enabled": false
-		},
-		{
 			"Name": "RiderSourceCodeAccess",
 			"Enabled": false
 		},
 		{
 			"Name": "SQLiteSupport",
-			"Enabled": true
-		},
-		{
-			"Name": "UE4ML",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "WebBrowserWidget",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "XCodeSourceCodeAccess",
@@ -166,7 +150,7 @@
 		},
 		{
 			"Name": "CommonUI",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "SubversionSourceControl",
@@ -178,19 +162,19 @@
 		},
 		{
 			"Name": "ImagePlate",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "PerformanceMonitor",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "Gauntlet",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "FunctionalTestingEditor",
-			"Enabled": true
+			"Enabled": false
 		}
 	]
 }
