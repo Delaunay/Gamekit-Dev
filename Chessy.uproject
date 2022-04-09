@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{2D4A449E-4019-A940-3B48-56BCFCE8A219}",
+	"EngineAssociation": "{44C69C2F-44E5-9AA2-6723-DCA5E540AF0B}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -170,11 +170,35 @@
 		},
 		{
 			"Name": "Gauntlet",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "FunctionalTestingEditor",
-			"Enabled": false
+			"Enabled": true
+		},
+		{
+			"Name": "EditorTests",
+			"Enabled": true
+		},
+		{
+			"Name": "PythonAutomationTest",
+			"Enabled": true
+		},
+		{
+			"Name": "NetcodeUnitTest",
+			"Enabled": true
+		},
+		{
+			"Name": "NUTUnrealEngine4",
+			"Enabled": true
+		},
+		{
+			"Name": "RuntimeTests",
+			"Enabled": true
+		},
+		{
+			"Name": "RHITests",
+			"Enabled": true
 		}
 	]
 }
