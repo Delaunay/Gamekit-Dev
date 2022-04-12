@@ -28,16 +28,20 @@
 	],
 	"Plugins": [
 		{
+			"Name": "FastBuildController",
+			"Enabled":  false
+		},
+		{
 			"Name": "CodeView",
 			"Enabled": false
 		},
 		{
 			"Name": "BlueprintStats",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "CodeEditor",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "DataCharts",
@@ -150,7 +154,7 @@
 		},
 		{
 			"Name": "CommonUI",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "SubversionSourceControl",
@@ -162,11 +166,11 @@
 		},
 		{
 			"Name": "ImagePlate",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "PerformanceMonitor",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "Gauntlet",
@@ -174,7 +178,163 @@
 		},
 		{
 			"Name": "FunctionalTestingEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "AndroidDeviceProfileSelector",
 			"Enabled": false
+		},
+		{
+			"Name": "AndroidMedia",
+			"Enabled": false
+		},
+		{
+			"Name": "AndroidMoviePlayer",
+			"Enabled": false
+		},
+		{
+			"Name": "OnlineSubsystemGooglePlay",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Android"
+			]
+		},
+		{
+			"Name": "AndroidPermission",
+			"Enabled": false
+		},
+		{
+			"Name": "AndroidFileServer",
+			"Enabled": false
+		},
+		{
+			"Name": "AppleImageUtils",
+			"Enabled": false
+		},
+		{
+			"Name": "AppleMoviePlayer",
+			"Enabled": false
+		},
+		{
+			"Name": "AssetPlacementEdMode",
+			"Enabled": true
+		},
+		{
+			"Name": "AssetSearch",
+			"Enabled": true
+		},
+		{
+			"Name": "BlueprintMaterialTextureNodes",
+			"Enabled": true
+		},
+		{
+			"Name": "BlueprintFileUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "Bridge",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		},
+		{
+			"Name": "CascadeToNiagaraConverter",
+			"Enabled": true
+		},
+		{
+			"Name": "CommonConversation",
+			"Enabled": true
+		},
+		{
+			"Name": "ComputeFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "ContentBrowserAliasDataSource",
+			"Enabled": true
+		},
+		{
+			"Name": "ControlFlows",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorTests",
+			"Enabled": true
+		},
+		{
+			"Name": "ExampleAssetEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFeatures",
+			"Enabled": true
+		},
+		{
+			"Name": "JsonBlueprintUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "Landmass",
+			"Enabled": true
+		},
+		{
+			"Name": "ModularGameplay",
+			"Enabled": true
+		},
+		{
+			"Name": "NUTUnrealEngine",
+			"Enabled": true
+		},
+		{
+			"Name": "NetcodeUnitTest",
+			"Enabled": true
+		},
+		{
+			"Name": "NetworkPrediction",
+			"Enabled": true
+		},
+		{
+			"Name": "NetworkPredictionExtras",
+			"Enabled": true
+		},
+		{
+			"Name": "ExampleCustomDataInterface",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineServicesNull",
+			"Enabled": true
+		},
+		{
+			"Name": "PythonAutomationTest",
+			"Enabled": true
+		},
+		{
+			"Name": "PythonFoundationPackages",
+			"Enabled": true
+		},
+		{
+			"Name": "ReplayTracks",
+			"Enabled": true
+		},
+		{
+			"Name": "SlateScripting",
+			"Enabled": true
+		},
+		{
+			"Name": "TestSamples",
+			"Enabled": true
+		},
+		{
+			"Name": "MLAdapter",
+			"Enabled": true
 		}
 	]
 }
