@@ -4,14 +4,16 @@
 .vscode
 Content
 DerivedDataCache
-gamekit
 Intermediate
 Saved
 Script
 Shaders
 Plugins/BlueprintCode/Content
 Plugins/BlueprintCode/Intermediate
+Plugins/Gamekit/.github
 Plugins/Gamekit/Content
 Plugins/Gamekit/Docs
 Plugins/Gamekit/Intermediate
 Plugins/Gamekit/Shaders
+Plugins/GamekitTests/Content
+Plugins/GamekitTests/Intermediate
