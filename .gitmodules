@@ -1,3 +1,8 @@
 [submodule "Plugins/Gamekit"]
 	path = Plugins/Gamekit
 	url = https://github.com/Delaunay/Gamekit.git
+
+[submodule "Plugins/GKML"]
+	path = Plugins/GKML
+	url = https://github.com/Delaunay/GKMachineLearning.git
+
