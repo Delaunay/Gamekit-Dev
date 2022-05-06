@@ -6,3 +6,6 @@
 	path = Plugins/GKML
 	url = https://github.com/Delaunay/GKMachineLearning.git
 
+[submodule "Plugins/GKLua"]
+	path = Plugins/GKLua
+	url = https://github.com/Delaunay/GKLua

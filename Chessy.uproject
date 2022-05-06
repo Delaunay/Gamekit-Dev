@@ -91,7 +91,7 @@
 		},
 		{
 			"Name": "EditorScriptingUtilities",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "EnhancedInput",
@@ -319,10 +319,6 @@
 		},
 		{
 			"Name": "PythonFoundationPackages",
-			"Enabled": true
-		},
-		{
-			"Name": "ReplayTracks",
 			"Enabled": true
 		},
 		{
