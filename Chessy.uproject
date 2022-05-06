@@ -22,7 +22,8 @@
 				"AIModule",
 				"CoreUObject",
 				"UMG",
-				"GameplayAbilities"
+				"GameplayAbilities",
+				"UnrealEd"
 			]
 		}
 	],
@@ -33,7 +34,7 @@
 		},
 		{
 			"Name": "CodeView",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "BlueprintStats",
