@@ -1,0 +1,582 @@
+﻿# Game French translation.
+# Copyright Epic Games, Inc. All Rights Reserved.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Game\n"
+"POT-Creation-Date: 2022-05-29 15:06\n"
+"PO-Revision-Date: 2022-05-29 15:06\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Key:	00634C554481636219858A813C14DC94
+#. SourceLocation:	/Gamekit/Widgets/Debug/WNetworkCondtions.WNetworkCondtions_C:WidgetTree.PacketLossLabel.Text
+#: /Gamekit/Widgets/Debug/WNetworkCondtions.WNetworkCondtions_C:WidgetTree.PacketLossLabel.Text
+msgctxt ",00634C554481636219858A813C14DC94"
+msgid "Packet Loss"
+msgstr ""
+
+#. Key:	0658BE384E42841668A56DA96B7F7483
+#. SourceLocation:	/Game/Levels/FlatLandscape.FlatLandscape:PersistentLevel.FunctionalTestCheck_2.TestName.Text
+#: /Game/Levels/FlatLandscape.FlatLandscape:PersistentLevel.FunctionalTestCheck_2.TestName.Text
+msgctxt ",0658BE384E42841668A56DA96B7F7483"
+msgid "FunctionalTestCheck"
+msgstr ""
+
+#. Key:	0AFC231F4F211537851BA585581481A6
+#. SourceLocation:	/GKML/CartPole/Cart_Widget.Cart_Widget_C:WidgetTree.Label-1.Text
+#: /GKML/CartPole/Cart_Widget.Cart_Widget_C:WidgetTree.Label-1.Text
+msgctxt ",0AFC231F4F211537851BA585581481A6"
+msgid "Axis -1:"
+msgstr ""
+
+#. Key:	173D046247FF7FA54078B9942D1B0EB9
+#. SourceLocation:	/Gamekit/Widgets/ActiveEffect/EffectIcon.EffectIcon_C:WidgetTree.TextBlock_80.Text
+#: /Gamekit/Widgets/ActiveEffect/EffectIcon.EffectIcon_C:WidgetTree.TextBlock_80.Text
+msgctxt ",173D046247FF7FA54078B9942D1B0EB9"
+msgid "6m"
+msgstr ""
+
+#. Key:	17EDE210430D8C7A150BA69353B3BC00
+#. SourceLocation:	/Gamekit/Widgets/Quest/ListView_EntryWidget.ListView_EntryWidget_C:ExecuteUbergraph_ListView_EntryWidget [Script Bytecode]
+#: /Gamekit/Widgets/Quest/ListView_EntryWidget.ListView_EntryWidget_C:ExecuteUbergraph_ListView_EntryWidget [Script Bytecode]
+msgctxt ",17EDE210430D8C7A150BA69353B3BC00"
+msgid "v"
+msgstr ""
+
+#. Key:	1B35D7F0430BEBFBC6806DAD06291620
+#. SourceLocation:	/Gamekit/Widgets/Ability/ActionBar.ActionBar_C:Set Mana Value [Script Bytecode]
+#: /Gamekit/Widgets/Ability/ActionBar.ActionBar_C:Set Mana Value [Script Bytecode]
+msgctxt ",1B35D7F0430BEBFBC6806DAD06291620"
+msgid "{0} / {1}"
+msgstr ""
+
+#. Key:	1B9C283845FB213172E553ABFDD50681
+#. SourceLocation:	/Gamekit/Data/AbilityData.AbilityData.MeleeAttack.LocalDescription
+#: /Gamekit/Data/AbilityData.AbilityData.MeleeAttack.LocalDescription
+msgctxt ",1B9C283845FB213172E553ABFDD50681"
+msgid "Normal Attack"
+msgstr ""
+
+#. Key:	1ECB4A014D4429092F00C1A170995FC2
+#. SourceLocation:	/Gamekit/Widgets/StatusBars/FloatingStatusBar.FloatingStatusBar_C:WidgetTree.TextBlock_171.Text
+#: /Gamekit/Widgets/StatusBars/FloatingStatusBar.FloatingStatusBar_C:WidgetTree.TextBlock_171.Text
+msgctxt ",1ECB4A014D4429092F00C1A170995FC2"
+msgid "Rooted"
+msgstr ""
+
+#. Key:	1F09338F4D35C76074A719BBC6110181
+#. SourceLocation:	/Gamekit/FX/NS_Projectile_Base.NS_Projectile_Base:FireBall_0.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_9.Metadata.Description
+#: /Gamekit/FX/NS_Projectile_Base.NS_Projectile_Base:FireBall_0.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_9.Metadata.Description
+msgctxt ",1F09338F4D35C76074A719BBC6110181"
+msgid "Mass is factored into the Solver Calculations (Solve Forces and Solve Rotational Forces) where forces are converted into a final velocity. The more massive a particle, the more force is required to move it. "
+msgstr ""
+
+#. Key:	25BCEA0D448B0848EA1ECA9B40EB9872
+#. SourceLocation:	/Gamekit/FX/AOEAbilityPlaceholder.AOEAbilityPlaceholder:NE_ScratchEmitter_0.NE_FireWave.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_214.Metadata.Description
+#: /Gamekit/FX/AOEAbilityPlaceholder.AOEAbilityPlaceholder:NE_ScratchEmitter_0.NE_FireWave.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_214.Metadata.Description
+msgctxt ",25BCEA0D448B0848EA1ECA9B40EB9872"
+msgid "Enabling Persistent IDs in the emitter properties allows for the creation of Particles.ID which is a two integer struct that uniquely identifies every particle across all the emitters in a System."
+msgstr ""
+
+#. Key:	2817FCD14EE5BE4B772B7998F7DA8DFA
+#. SourceLocation:	/Gamekit/HUD/TestWidget.TestWidget_C:WidgetTree.Hours.Text
+#: /Gamekit/HUD/TestWidget.TestWidget_C:WidgetTree.Hours.Text
+msgctxt ",2817FCD14EE5BE4B772B7998F7DA8DFA"
+msgid "24.00"
+msgstr ""
+
+#. Key:	29483CB44D4F33964391ED855A5120F7
+#. SourceLocation:	/Gamekit/FX/NS_AreaOfEffect_Base.NS_AreaOfEffect_Base:NE_BurntArea.NiagaraScriptSource_2.NiagaraGraph_0.NiagaraScriptVariable_57.Metadata.Description
+#: /Gamekit/FX/NS_AreaOfEffect_Base.NS_AreaOfEffect_Base:NE_BurntArea.NiagaraScriptSource_2.NiagaraGraph_0.NiagaraScriptVariable_57.Metadata.Description
+msgctxt ",29483CB44D4F33964391ED855A5120F7"
+msgid "Makes the surface of the sprite face towards a custom vector. Must be used with the SpriteRenderer's CustomFacingVector FacingMode option."
+msgstr ""
+
+#. Key:	2A5C53B9418F0DA58210DFA5F92D8CE6
+#. SourceLocation:	/Gamekit/Widgets/Ability/AbilityToolTip.AbilityToolTip_C:FromAbilityStatic [Script Bytecode]
+#: /Gamekit/Widgets/Ability/AbilityToolTip.AbilityToolTip_C:FromAbilityStatic [Script Bytecode]
+msgctxt ",2A5C53B9418F0DA58210DFA5F92D8CE6"
+msgid "<title>{title}</>\r\n<newline></>\r\n<desc>{description}</>\r\n\r\n<img id=\"Cooldown\"/> {cooldown}\r\n<img id=\"Cost\"/> {cost}"
+msgstr ""
+
+#. Key:	2B154E2F42B135FFBAB5AFAC92F9B995
+#. SourceLocation:	/Gamekit/FX/NS_Projectile_Base.NS_Projectile_Base:FireBall_0.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_12.Metadata.Description
+#: /Gamekit/FX/NS_Projectile_Base.NS_Projectile_Base:FireBall_0.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_12.Metadata.Description
+msgctxt ",2B154E2F42B135FFBAB5AFAC92F9B995"
+msgid "Used to drive the Particle Random node in the Material Editor. Without this set, any Particle Randoms will get 0.0."
+msgstr ""
+
+#. Key:	2DF144DD42D31C0C196584A09CF9F19A
+#. SourceLocation:	/Gamekit/Widgets/Views/ItemWidget.Default__ItemWidget_C.ItemStatic.LocalName
+#: /Gamekit/Widgets/Views/ItemWidget.Default__ItemWidget_C.ItemStatic.LocalName
+msgctxt ",2DF144DD42D31C0C196584A09CF9F19A"
+msgid "Helmet"
+msgstr ""
+
+#. Key:	2EFC3E99485E9AF15E2BCE80C5DAD355
+#. SourceLocation:	/Gamekit/Widgets/Debug/WNetworkCondtions.WNetworkCondtions_C:WidgetTree.PingMsValue.Text
+#: /Gamekit/Widgets/Debug/WNetworkCondtions.WNetworkCondtions_C:WidgetTree.PingMsValue.Text
+msgctxt ",2EFC3E99485E9AF15E2BCE80C5DAD355"
+msgid "300"
+msgstr ""
+
+#. Key:	2FB471BF46C98E15FCC07287B79484CB
+#. SourceLocation:	/Gamekit/Widgets/Views/InventoryView.InventoryView_C:WidgetTree.TextBlock_246.Text
+#: /Gamekit/Widgets/Views/InventoryView.InventoryView_C:WidgetTree.TextBlock_246.Text
+msgctxt ",2FB471BF46C98E15FCC07287B79484CB"
+msgid "Inventory"
+msgstr ""
+
+#. Key:	3288CC1B4551BB4E0A11BC992260230E
+#. SourceLocation:	/Gamekit/Widgets/Ability/AbilityWidget.AbilityWidget_C:WidgetTree.TextBlock_66.Text
+#: /Gamekit/Widgets/Ability/AbilityWidget.AbilityWidget_C:WidgetTree.TextBlock_66.Text
+msgctxt ",3288CC1B4551BB4E0A11BC992260230E"
+msgid "+"
+msgstr ""
+
+#. Key:	37225C8D4EAC42AAC1ED0E8A926830A5
+#. SourceLocation:	/Gamekit/Widgets/Views/CharacterView.CharacterView_C:WidgetTree.Character.Name
+#: /Gamekit/Widgets/Views/CharacterView.CharacterView_C:WidgetTree.Character.Name
+msgctxt ",37225C8D4EAC42AAC1ED0E8A926830A5"
+msgid "Character"
+msgstr ""
+
+#. Key:	3913C7FB4E87F7552270389F9CD19308
+#. SourceLocation:	/Gamekit/Widgets/Debug/WNetworkCondtions.WNetworkCondtions_C:WidgetTree.PingLabel.Text
+#: /Gamekit/Widgets/Debug/WNetworkCondtions.WNetworkCondtions_C:WidgetTree.PingLabel.Text
+msgctxt ",3913C7FB4E87F7552270389F9CD19308"
+msgid "Ping (ms)"
+msgstr ""
+
+#. Key:	3EC9EAE046CF8EC97279F9B8EAFCE31B
+#. SourceLocation:	/Gamekit/Data/UnitData.UnitData.DummyUnit.LocalName
+#: /Gamekit/Data/UnitData.UnitData.DummyUnit.LocalName
+msgctxt ",3EC9EAE046CF8EC97279F9B8EAFCE31B"
+msgid "DummyUnit"
+msgstr ""
+
+#. Key:	41AF3FCB4EC2369F0BF21AB5FD536D62
+#. SourceLocation:	/Gamekit/FX/NS_Projectile_Base.NS_Projectile_Base:FireBall_0.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_41.Metadata.Description
+#: /Gamekit/FX/NS_Projectile_Base.NS_Projectile_Base:FireBall_0.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_41.Metadata.Description
+msgctxt ",41AF3FCB4EC2369F0BF21AB5FD536D62"
+msgid "The velocity in cm/s of the particle."
+msgstr ""
+
+#. Key:	43206B404D8F50E856F3088FF8E9D17C
+#. SourceLocation:	/Gamekit/Widgets/Views/TextLabel.TextLabel_C:WidgetTree.TextBlock_41.Text
+#: /Gamekit/Widgets/Views/TextLabel.TextLabel_C:WidgetTree.TextBlock_41.Text
+msgctxt ",43206B404D8F50E856F3088FF8E9D17C"
+msgid "Attribute Name"
+msgstr ""
+
+#. Key:	48D4601E414A1F3CC800348EBF748F08
+#. SourceLocation:	/Gamekit/Widgets/Quest/ListView_EntryWidget.ListView_EntryWidget_C:ExecuteUbergraph_ListView_EntryWidget [Script Bytecode]
+#: /Gamekit/Widgets/Quest/ListView_EntryWidget.ListView_EntryWidget_C:ExecuteUbergraph_ListView_EntryWidget [Script Bytecode]
+msgctxt ",48D4601E414A1F3CC800348EBF748F08"
+msgid ">"
+msgstr ""
+
+#. Key:	4AB133954FD63080526D9D8175142E7E
+#. SourceLocation:	/Gamekit/Widgets/Quest/ListView_EntryWidget.ListView_EntryWidget_C:WidgetTree.Expanded.Text
+#: /Gamekit/Widgets/Quest/ListView_EntryWidget.ListView_EntryWidget_C:WidgetTree.Expanded.Text
+msgctxt ",4AB133954FD63080526D9D8175142E7E"
+msgid ">"
+msgstr ""
+
+#. Key:	562C10A74ECD495BAC16F9B5F8EE94FF
+#. SourceLocation:	/Gamekit/Widgets/Views/TabButton/TabButton.TabButton_C:WidgetTree.Label.Text
+#: /Gamekit/Widgets/Views/TabButton/TabButton.TabButton_C:WidgetTree.Label.Text
+msgctxt ",562C10A74ECD495BAC16F9B5F8EE94FF"
+msgid "Tab Name"
+msgstr ""
+
+#. Key:	5C4BB0594F2FE44DC19D28B053E64BAD
+#. SourceLocation:	/GKML/CartPole/Cart_Widget.Cart_Widget_C:WidgetTree.StepLabel.Text
+#: /GKML/CartPole/Cart_Widget.Cart_Widget_C:WidgetTree.StepLabel.Text
+msgctxt ",5C4BB0594F2FE44DC19D28B053E64BAD"
+msgid "Step:"
+msgstr ""
+
+#. Key:	674B443B43899E2EDF6245BAB8EADF18
+#. SourceLocation:	/Gamekit/Widgets/Ability/ActionBar.ActionBar_C:WidgetTree.HealthRegen.Text
+#: /Gamekit/Widgets/Ability/ActionBar.ActionBar_C:WidgetTree.HealthRegen.Text
+msgctxt ",674B443B43899E2EDF6245BAB8EADF18"
+msgid "+ 5"
+msgstr ""
+
+#. Key:	68F1D9F44C293DCAFDB5B883C726A07D
+#. SourceLocation:	/Gamekit/Widgets/Debug/WNetworkCondtions.WNetworkCondtions_C:WidgetTree.UploadValue.Text
+#: /Gamekit/Widgets/Debug/WNetworkCondtions.WNetworkCondtions_C:WidgetTree.UploadValue.Text
+msgctxt ",68F1D9F44C293DCAFDB5B883C726A07D"
+msgid "250"
+msgstr ""
+
+#. Key:	6B1A44BD4F3D08BB2A68EDAA49971223
+#. SourceLocation:	/Gamekit/Data/UnitData.UnitData.DummyUnit.LocalDescription
+#: /Gamekit/Data/UnitData.UnitData.DummyUnit.LocalDescription
+msgctxt ",6B1A44BD4F3D08BB2A68EDAA49971223"
+msgid "DummyUnit only available in the editor"
+msgstr ""
+
+#. Key:	6CE419554E7F62AF4CB3E89F8CB6EEA5
+#. SourceLocation:	/Gamekit/Widgets/Ability/AbilityWidget.AbilityWidget_C:WidgetTree.InputKey.Text
+#: /Gamekit/Widgets/Ability/AbilityWidget.AbilityWidget_C:WidgetTree.InputKey.Text
+msgctxt ",6CE419554E7F62AF4CB3E89F8CB6EEA5"
+msgid "Q"
+msgstr ""
+
+#. Key:	6D1D3D3341049EE1F24925BDC82A859E
+#. SourceLocation:	/Gamekit/Data/AbilityData.AbilityData.Fireball_UnitTarget.LocalDescription
+#: /Gamekit/Data/AbilityData.AbilityData.Fireball_UnitTarget.LocalDescription
+msgctxt ",6D1D3D3341049EE1F24925BDC82A859E"
+msgid "Fire a homing missile towards the target"
+msgstr ""
+
+#. Key:	726553614B0399E6368D8BA8E53143F2
+#. SourceLocation:	/Gamekit/Widgets/UnitQuery/UnitQuery.UnitQuery_C:WidgetTree.TextBlock_145.Text
+#: /Gamekit/Widgets/UnitQuery/UnitQuery.UnitQuery_C:WidgetTree.TextBlock_145.Text
+msgctxt ",726553614B0399E6368D8BA8E53143F2"
+msgid "Target Name"
+msgstr ""
+
+#. Key:	7859F71849FB489BAE76F9A6B8A7F622
+#. SourceLocation:	/Gamekit/Widgets/Ability/AbilityWidget.AbilityWidget_C:WidgetTree.Cooldown.Text
+#: /Gamekit/Widgets/Ability/AbilityWidget.AbilityWidget_C:WidgetTree.Cooldown.Text
+msgctxt ",7859F71849FB489BAE76F9A6B8A7F622"
+msgid "120"
+msgstr ""
+
+#. Key:	7985618B47119D673DC232B03B577E34
+#. SourceLocation:	/GKML/CartPole/Cart_Widget.Cart_Widget_C:WidgetTree.Label1.Text
+#: /GKML/CartPole/Cart_Widget.Cart_Widget_C:WidgetTree.Label1.Text
+msgctxt ",7985618B47119D673DC232B03B577E34"
+msgid "Axis +1:"
+msgstr ""
+
+#. Key:	7C1B513649F27770FFC230920E75EE7A
+#. SourceLocation:	/Gamekit/Data/AbilityData.AbilityData.TestItem.LocalName
+#: /Gamekit/Data/AbilityData.AbilityData.TestItem.LocalName
+msgctxt ",7C1B513649F27770FFC230920E75EE7A"
+msgid "Helmet"
+msgstr ""
+
+#. Key:	83DD3C414F90889D9CA045B5F2966836
+#. SourceLocation:	/Gamekit/Widgets/Button/CustomButton.CustomButton_C:WidgetTree.Name.Text
+#: /Gamekit/Widgets/Button/CustomButton.CustomButton_C:WidgetTree.Name.Text
+msgctxt ",83DD3C414F90889D9CA045B5F2966836"
+msgid "Name"
+msgstr ""
+
+#. Key:	869ADCEC458A6F82A9B46597C5EF7F4A
+#. SourceLocation:	/Gamekit/Widgets/Debug/CharacterPositionDebug.CharacterPositionDebug_C:WidgetTree.TextBlock_144.Text
+#: /Gamekit/Widgets/Debug/CharacterPositionDebug.CharacterPositionDebug_C:WidgetTree.TextBlock_144.Text
+msgctxt ",869ADCEC458A6F82A9B46597C5EF7F4A"
+msgid "Reset"
+msgstr ""
+
+#. Key:	8720B6D34617438BFB3658AEA59B5904
+#. SourceLocation:	/Gamekit/FX/NS_AreaOfEffect_Base.NS_AreaOfEffect_Base:NE_BurntArea.NiagaraScriptSource_2.NiagaraGraph_0.NiagaraScriptVariable_45.Metadata.Description
+#: /Gamekit/FX/NS_AreaOfEffect_Base.NS_AreaOfEffect_Base:NE_BurntArea.NiagaraScriptSource_2.NiagaraGraph_0.NiagaraScriptVariable_45.Metadata.Description
+msgctxt ",8720B6D34617438BFB3658AEA59B5904"
+msgid "The XYZ scale of the non-sprite based particle."
+msgstr ""
+
+#. Key:	882D2BE04A1665B30D2DF288B444529C
+#. SourceLocation:	/Gamekit/MaterialLibrary/Exporter/MaterialExporterGame.MaterialExporterGame_C:ExecuteUbergraph_MaterialExporterGame [Script Bytecode]
+#: /Gamekit/MaterialLibrary/Exporter/MaterialExporterGame.MaterialExporterGame_C:ExecuteUbergraph_MaterialExporterGame [Script Bytecode]
+msgctxt ",882D2BE04A1665B30D2DF288B444529C"
+msgid "Working"
+msgstr ""
+
+#. Key:	88FAD3CF4942E69C61C64D979120A8EE
+#. SourceLocation:	/Gamekit/FX/NS_Projectile_Base.NS_Projectile_Base:FireBall_0.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_39.Metadata.Description
+#: /Gamekit/FX/NS_Projectile_Base.NS_Projectile_Base:FireBall_0.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_39.Metadata.Description
+msgctxt ",88FAD3CF4942E69C61C64D979120A8EE"
+msgid "The lifetime of a particle in seconds."
+msgstr ""
+
+#. Key:	895FB1EE0E0641459D133F1EF7A79077
+#. SourceLocation:	/GKML/CartPole/Cart_Widget.Cart_Widget_C:WidgetTree.PushedLabel.Text
+#: /GKML/CartPole/Cart_Widget.Cart_Widget_C:WidgetTree.PushedLabel.Text
+msgctxt ",895FB1EE0E0641459D133F1EF7A79077"
+msgid "Pushed:"
+msgstr ""
+
+#. Key:	95E42096417D9BBE19135DA61216E678
+#. SourceLocation:	/Gamekit/FX/NS_Projectile_Base.NS_Projectile_Base:FireBall_0.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_46.Metadata.Description
+#: /Gamekit/FX/NS_Projectile_Base.NS_Projectile_Base:FireBall_0.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_46.Metadata.Description
+msgctxt ",95E42096417D9BBE19135DA61216E678"
+msgid "Distance from start of ribbon that the particle lies."
+msgstr ""
+
+#. Key:	961EDDE84D75C69CB7C78A86E7BF5603
+#. SourceLocation:	/Gamekit/Widgets/Debug/WNetworkCondtions.WNetworkCondtions_C:WidgetTree.PacketLossValue.Text
+#: /Gamekit/Widgets/Debug/WNetworkCondtions.WNetworkCondtions_C:WidgetTree.PacketLossValue.Text
+msgctxt ",961EDDE84D75C69CB7C78A86E7BF5603"
+msgid "10"
+msgstr ""
+
+#. Key:	963877634A2FD154F72DA995C7B8AA3E
+#. SourceLocation:	/Gamekit/Data/AbilityData.AbilityData.Firewave.LocalDescription
+#: /Gamekit/Data/AbilityData.AbilityData.Firewave.LocalDescription
+msgctxt ",963877634A2FD154F72DA995C7B8AA3E"
+msgid "Devastating firewave burn everything on its path"
+msgstr ""
+
+#. Key:	9A3B5F8F4B24E442F4D15DB1B295B134
+#. SourceLocation:	/Gamekit/Widgets/Quest/ListView_EntryWidget.ListView_EntryWidget_C:WidgetTree.QuestTitle.Text
+#: /Gamekit/Widgets/Quest/ListView_EntryWidget.ListView_EntryWidget_C:WidgetTree.QuestTitle.Text
+msgctxt ",9A3B5F8F4B24E442F4D15DB1B295B134"
+msgid "Title"
+msgstr ""
+
+#. Key:	9CB2744E447BF19F751B929142E6F484
+#. SourceLocation:	/Gamekit/Data/AbilityData.AbilityData.Fireball_Directional.LocalDescription
+#: /Gamekit/Data/AbilityData.AbilityData.Fireball_Directional.LocalDescription
+msgctxt ",9CB2744E447BF19F751B929142E6F484"
+msgid "Launch a roaring ball of fire in a straight line"
+msgstr ""
+
+#. Key:	9EC4B8D94A853E06B12EAB9053378896
+#. SourceLocation:	/Gamekit/FX/AOEAbilityPlaceholder.AOEAbilityPlaceholder:NE_ScratchEmitter_0.NE_FireWave.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_223.Metadata.Description
+#: /Gamekit/FX/AOEAbilityPlaceholder.AOEAbilityPlaceholder:NE_ScratchEmitter_0.NE_FireWave.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_223.Metadata.Description
+msgctxt ",9EC4B8D94A853E06B12EAB9053378896"
+msgid "Imagine the texture having an arrow pointing up, this attribute makes the arrow point towards the alignment axis. Must be used with the SpriteRenderer's CustomAlignment Alignment option."
+msgstr ""
+
+#. Key:	9F1BC78746B52ABBC619A4B7ADD15480
+#. SourceLocation:	/Gamekit/Modes/HacknSlash/HNSHUD.HNSHUD_C:WidgetTree.TextBlock_91.Text
+#: /Gamekit/Modes/HacknSlash/HNSHUD.HNSHUD_C:WidgetTree.TextBlock_91.Text
+msgctxt ",9F1BC78746B52ABBC619A4B7ADD15480"
+msgid "99"
+msgstr ""
+
+#. Key:	9F52E9214E020288E7FA0EA61D10370A
+#. SourceLocation:	/Gamekit/Data/QuestData.QuestData.DummyQuest.Objectives(0).Objectives.Objectives(1).Objectives.ShortDescription
+#: /Gamekit/Data/QuestData.QuestData.DummyQuest.Objectives(0).Objectives.Objectives(1).Objectives.ShortDescription
+msgctxt ",9F52E9214E020288E7FA0EA61D10370A"
+msgid "Helloooo"
+msgstr ""
+
+#. Key:	A0BFD936491FC0E8C483CEB1D3126471
+#. SourceLocation:	/Gamekit/FX/NS_Projectile_Base.NS_Projectile_Base:FireBall_0.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_14.Metadata.Description
+#: /Gamekit/FX/NS_Projectile_Base.NS_Projectile_Base:FireBall_0.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_14.Metadata.Description
+msgctxt ",A0BFD936491FC0E8C483CEB1D3126471"
+msgid "The position of the particle."
+msgstr ""
+
+#. Key:	A6FC7833482E2EC5E4315397E73E8EF0
+#. SourceLocation:	/Gamekit/Widgets/Debug/WNetworkCondtions.WNetworkCondtions_C:WidgetTree.NetConfig.Text
+#: /Gamekit/Widgets/Debug/WNetworkCondtions.WNetworkCondtions_C:WidgetTree.NetConfig.Text
+msgctxt ",A6FC7833482E2EC5E4315397E73E8EF0"
+msgid "Network Config"
+msgstr ""
+
+#. Key:	AAF8B08F46862195289405B0BD5759BA
+#. SourceLocation:	/Gamekit/FX/NS_Projectile_Base.NS_Projectile_Base:FireBall_0.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_84.Metadata.Description
+#: /Gamekit/FX/NS_Projectile_Base.NS_Projectile_Base:FireBall_0.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_84.Metadata.Description
+msgctxt ",AAF8B08F46862195289405B0BD5759BA"
+msgid "The age in seconds divided by lifetime in seconds. Useful for animation as the value is between 0 and 1."
+msgstr ""
+
+#. Key:	AD19D3614ECDEFCAF49A11829D068AD2
+#. SourceLocation:	/Gamekit/Widgets/Debug/WNetworkCondtions.WNetworkCondtions_C:WidgetTree.DownloadValue.Text
+#: /Gamekit/Widgets/Debug/WNetworkCondtions.WNetworkCondtions_C:WidgetTree.DownloadValue.Text
+msgctxt ",AD19D3614ECDEFCAF49A11829D068AD2"
+msgid "750"
+msgstr ""
+
+#. Key:	AF2939F3425D0B8BAF68D09516C8B110
+#. SourceLocation:	/Gamekit/FX/NS_AreaOfEffect_Base.NS_AreaOfEffect_Base:NE_BurntArea.NiagaraEmitter_3.NiagaraEditorParametersAdapter_0.NiagaraScriptVariable_11.Metadata.Description
+#: /Gamekit/FX/NS_AreaOfEffect_Base.NS_AreaOfEffect_Base:NE_BurntArea.NiagaraEmitter_3.NiagaraEditorParametersAdapter_0.NiagaraScriptVariable_11.Metadata.Description
+msgctxt ",AF2939F3425D0B8BAF68D09516C8B110"
+msgid "The 4-float vector used to send custom data to renderer."
+msgstr ""
+
+#. Key:	AFCC31B64C83586CB295D5A921FE7031
+#. SourceLocation:	/Gamekit/MaterialLibrary/Exporter/MaterialExporterGame.MaterialExporterGame_C:ExecuteUbergraph_MaterialExporterGame [Script Bytecode]
+#: /Gamekit/MaterialLibrary/Exporter/MaterialExporterGame.MaterialExporterGame_C:ExecuteUbergraph_MaterialExporterGame [Script Bytecode]
+msgctxt ",AFCC31B64C83586CB295D5A921FE7031"
+msgid "Starting"
+msgstr ""
+
+#. Key:	B0515DC945C31B15A2DE33AD98660082
+#. SourceLocation:	/GKML/CartPole/Cart_Widget.Cart_Widget_C:WidgetTree.Label0.Text
+#: /GKML/CartPole/Cart_Widget.Cart_Widget_C:WidgetTree.Label0.Text
+msgctxt ",B0515DC945C31B15A2DE33AD98660082"
+msgid "Axis   0:"
+msgstr ""
+
+#. Key:	B11AFBEF4D4966FDC4B52286BF0224BF
+#. SourceLocation:	/Gamekit/FX/NS_Projectile_Base.NS_Projectile_Base:FireBall_0.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_160.Metadata.Description
+#: /Gamekit/FX/NS_Projectile_Base.NS_Projectile_Base:FireBall_0.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_160.Metadata.Description
+msgctxt ",B11AFBEF4D4966FDC4B52286BF0224BF"
+msgid "The size of the sprite quad."
+msgstr ""
+
+#. Key:	B35541F948415FF111B0DBB7C92372BB
+#. SourceLocation:	/Gamekit/Data/AbilityData.AbilityData.Fireball_UnitTarget.LocalName
+#: /Gamekit/Data/AbilityData.AbilityData.Fireball_UnitTarget.LocalName
+msgctxt ",B35541F948415FF111B0DBB7C92372BB"
+msgid "Homing Missille"
+msgstr ""
+
+#. Key:	B3907C4A4D03106C5D3B29A74A51D9A3
+#. SourceLocation:	/Gamekit/Widgets/Ability/ActionBar.ActionBar_C:WidgetTree.HealthValue.Text
+#: /Gamekit/Widgets/Ability/ActionBar.ActionBar_C:WidgetTree.HealthValue.Text
+msgctxt ",B3907C4A4D03106C5D3B29A74A51D9A3"
+msgid "70 / 100"
+msgstr ""
+
+#. Key:	B4753B84442D47741B38DBA787321D2E
+#. SourceLocation:	/GKML/CartPole/Cart_Widget.Cart_Widget_C:WidgetTree.RewardLabel.Text
+#: /GKML/CartPole/Cart_Widget.Cart_Widget_C:WidgetTree.RewardLabel.Text
+msgctxt ",B4753B84442D47741B38DBA787321D2E"
+msgid "Reward"
+msgstr ""
+
+#. Key:	B4ADE0C44EF2C8C81194739FC6E4ECBC
+#. SourceLocation:	/Gamekit/FX/NS_Projectile_Base.NS_Projectile_Base:FireBall_0.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_173.Metadata.Description
+#: /Gamekit/FX/NS_Projectile_Base.NS_Projectile_Base:FireBall_0.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_173.Metadata.Description
+msgctxt ",B4ADE0C44EF2C8C81194739FC6E4ECBC"
+msgid "The color of the particle."
+msgstr ""
+
+#. Key:	B80AABCA46FA1DD010B5918904D0EEFC
+#. SourceLocation:	/Gamekit/Widgets/Ability/AbilityToolTip.AbilityToolTip_C:WidgetTree.Description.Text
+#: /Gamekit/Widgets/Ability/AbilityToolTip.AbilityToolTip_C:WidgetTree.Description.Text
+msgctxt ",B80AABCA46FA1DD010B5918904D0EEFC"
+msgid "<title>{title}</>\r\n<newline></>\r\n<desc>{description}</>\r\n\r\n<img id=\"Cooldown\"/> {cooldown}\r\n<img id=\"Cost\"/> {cost}"
+msgstr ""
+
+#. Key:	BC17CD7D4628026EAD6BD59513FD20D1
+#. SourceLocation:	/Gamekit/Widgets/Views/CharacterView.CharacterView_C:WidgetTree.Attributes.Name
+#: /Gamekit/Widgets/Views/CharacterView.CharacterView_C:WidgetTree.Attributes.Name
+msgctxt ",BC17CD7D4628026EAD6BD59513FD20D1"
+msgid "Attributes"
+msgstr ""
+
+#. Key:	BD1AF87641DD659C41C0359C717B3352
+#. SourceLocation:	/Gamekit/Data/QuestData.QuestData.DummyQuest.QuestDescription
+#: /Gamekit/Data/QuestData.QuestData.DummyQuest.QuestDescription
+msgctxt ",BD1AF87641DD659C41C0359C717B3352"
+msgid "Do stuff useful thanks!"
+msgstr ""
+
+#. Key:	BE2B1F5A4880BBED4C01AC881A662629
+#. SourceLocation:	/Gamekit/Widgets/Views/AttributeValue.AttributeValue_C:WidgetTree.Value.Text
+#: /Gamekit/Widgets/Views/AttributeValue.AttributeValue_C:WidgetTree.Value.Text
+msgctxt ",BE2B1F5A4880BBED4C01AC881A662629"
+msgid "0.0"
+msgstr ""
+
+#. Key:	CC5535A34D5B4C0B3670EDAD64EA270A
+#. SourceLocation:	/Gamekit/Data/QuestData.QuestData.DummyQuest.Objectives(0).Objectives.Objectives(0).Objectives.ShortDescription
+#: /Gamekit/Data/QuestData.QuestData.DummyQuest.Objectives(0).Objectives.Objectives(0).Objectives.ShortDescription
+msgctxt ",CC5535A34D5B4C0B3670EDAD64EA270A"
+msgid "Slayed"
+msgstr ""
+
+#. Key:	D1743BB573124A31B2D4D17519FEDE9A
+#. SourceLocation:	/Gamekit/Widgets/StatusBars/FloatingStatusBar.FloatingStatusBar_C:WidgetTree.NamePlate.Text
+#: /Gamekit/Widgets/StatusBars/FloatingStatusBar.FloatingStatusBar_C:WidgetTree.NamePlate.Text
+msgctxt ",D1743BB573124A31B2D4D17519FEDE9A"
+msgid "Neferneferure"
+msgstr ""
+
+#. Key:	D1FEF28640D5F85D827762B4385EE9E9
+#. SourceLocation:	/Gamekit/Widgets/Ability/AbilityWidget.AbilityWidget_C:WidgetTree.Cost.Text
+#: /Gamekit/Widgets/Ability/AbilityWidget.AbilityWidget_C:WidgetTree.Cost.Text
+msgctxt ",D1FEF28640D5F85D827762B4385EE9E9"
+msgid "350"
+msgstr ""
+
+#. Key:	D35FA10942296477C5D54DA6DC41D1CB
+#. SourceLocation:	/Gamekit/Widgets/Ability/AbilityToolTip.Default__AbilityToolTip_C.Template
+#: /Gamekit/Widgets/Ability/AbilityToolTip.Default__AbilityToolTip_C.Template
+msgctxt ",D35FA10942296477C5D54DA6DC41D1CB"
+msgid "<title>{{title}}</>\r\n<newline></>\r\n<desc>{{description}}</>\r\n\r\n  <img id=\"Cooldown\"/> {{cooldown}}\r\n  <img id=\"Cost\"/> {{cost}}"
+msgstr ""
+
+#. Key:	DD9000804C89D94928CE1DB3F7CFE9A4
+#. SourceLocation:	/Gamekit/FX/AOEAbilityPlaceholder.AOEAbilityPlaceholder:NE_ScratchEmitter_0.NE_FireWave.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_334.Metadata.Description
+#: /Gamekit/FX/AOEAbilityPlaceholder.AOEAbilityPlaceholder:NE_ScratchEmitter_0.NE_FireWave.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraScriptVariable_334.Metadata.Description
+msgctxt ",DD9000804C89D94928CE1DB3F7CFE9A4"
+msgid "The screen aligned roll of the particle in degrees."
+msgstr ""
+
+#. Key:	DED2445C45CCE1E7B496E2BBBD12E6CD
+#. SourceLocation:	/Gamekit/Widgets/Debug/WNetworkCondtions.WNetworkCondtions_C:WidgetTree.UploadLabel.Text
+#: /Gamekit/Widgets/Debug/WNetworkCondtions.WNetworkCondtions_C:WidgetTree.UploadLabel.Text
+msgctxt ",DED2445C45CCE1E7B496E2BBBD12E6CD"
+msgid "Upload"
+msgstr ""
+
+#. Key:	E3E2F13B4BC6246A53D1099A0737448B
+#. SourceLocation:	/Gamekit/Widgets/Ability/AbilityToolTip.AbilityToolTip_C:ExecuteUbergraph_AbilityToolTip [Script Bytecode]
+#: /Gamekit/Widgets/Ability/AbilityToolTip.AbilityToolTip_C:ExecuteUbergraph_AbilityToolTip [Script Bytecode]
+msgctxt ",E3E2F13B4BC6246A53D1099A0737448B"
+msgid "Design Mode Ability"
+msgstr ""
+
+#. Key:	EC9BA0DD417F0C07C07E3DBB00F88785
+#. SourceLocation:	/Gamekit/Data/AbilityData.AbilityData.Fireball_Directional.LocalName
+#: /Gamekit/Data/AbilityData.AbilityData.Fireball_Directional.LocalName
+msgctxt ",EC9BA0DD417F0C07C07E3DBB00F88785"
+msgid "Fire Ball"
+msgstr ""
+
+#. Key:	ECACA7EA47D83054F2D77FBE556D977B
+#. SourceLocation:	/Gamekit/Data/AbilityData.AbilityData.Firewave.LocalName
+#: /Gamekit/Data/AbilityData.AbilityData.Firewave.LocalName
+msgctxt ",ECACA7EA47D83054F2D77FBE556D977B"
+msgid "Fire Wave"
+msgstr ""
+
+#. Key:	F0B2B4E64C57E5E6EAE193B742057791
+#. SourceLocation:	/Gamekit/Widgets/Ability/ActionBar.ActionBar_C:Set Health Value [Script Bytecode]
+#: /Gamekit/Widgets/Ability/ActionBar.ActionBar_C:Set Health Value [Script Bytecode]
+msgctxt ",F0B2B4E64C57E5E6EAE193B742057791"
+msgid "{0} / {1}"
+msgstr ""
+
+#. Key:	F262611544D33FD963BC85BFEC91623E
+#. SourceLocation:	/Gamekit/Widgets/Debug/WNetworkCondtions.WNetworkCondtions_C:WidgetTree.DownloadLabel.Text
+#: /Gamekit/Widgets/Debug/WNetworkCondtions.WNetworkCondtions_C:WidgetTree.DownloadLabel.Text
+msgctxt ",F262611544D33FD963BC85BFEC91623E"
+msgid "Download"
+msgstr ""
+
+#. Key:	F74451BA4C89824D2920A59A84ED2DC4
+#. SourceLocation:	/Gamekit/Data/AbilityData.AbilityData.MeleeAttack.LocalName
+#: /Gamekit/Data/AbilityData.AbilityData.MeleeAttack.LocalName
+msgctxt ",F74451BA4C89824D2920A59A84ED2DC4"
+msgid "Attack"
+msgstr ""
+
+#. Key:	F96FEABD46AB90758432CBBDA7DB349E
+#. SourceLocation:	/Gamekit/Widgets/Ability/AbilityToolTip.AbilityToolTip_C:ExecuteUbergraph_AbilityToolTip [Script Bytecode]
+#: /Gamekit/Widgets/Ability/AbilityToolTip.AbilityToolTip_C:ExecuteUbergraph_AbilityToolTip [Script Bytecode]
+msgctxt ",F96FEABD46AB90758432CBBDA7DB349E"
+msgid "This is the description in design mode"
+msgstr ""
+
+#. Key:	FC5FDAC4470D885CC9FEDCA1D2F67C91
+#. SourceLocation:	/Gamekit/Data/QuestData.QuestData.DummyQuest.Objectives(0).Objectives.ShortDescription
+#: /Gamekit/Data/QuestData.QuestData.DummyQuest.Objectives(0).Objectives.ShortDescription
+msgctxt ",FC5FDAC4470D885CC9FEDCA1D2F67C91"
+msgid "Kill stuff"
+msgstr ""
+
+#. Key:	FCB452814202ED69394310ADB65A3D16
+#. SourceLocation:	/Gamekit/Data/QuestData.QuestData.DummyQuest.QuestName
+#: /Gamekit/Data/QuestData.QuestData.DummyQuest.QuestName
+msgctxt ",FCB452814202ED69394310ADB65A3D16"
+msgid "My Quest"
+msgstr ""
+
