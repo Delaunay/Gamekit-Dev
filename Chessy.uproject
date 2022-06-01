@@ -23,6 +23,15 @@
 				"CoreUObject",
 				"UMG",
 				"GameplayAbilities",
+				"OnlineSubsystem",
+				"OnlineSubsystemUtils"
+			]
+		},
+		{
+			"Name": "GamekitEd",
+			"Type": "Editor",
+			"LoadingPhase": "PostConfigInit",
+			"AdditionalDependencies": [
 				"UnrealEd"
 			]
 		}

@@ -8,7 +8,8 @@ public class ChessyEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.AddRange(new[] {
-			"Gamekit", 
+			"Gamekit",
+			"GamekitEd",
 			"Chessy", 
 			// "ScriptEditorPlugin" 
 		});
