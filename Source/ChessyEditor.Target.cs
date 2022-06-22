@@ -10,7 +10,7 @@ public class ChessyEditorTarget : TargetRules
 		ExtraModuleNames.AddRange(new[] {
 			"Gamekit",
 			"GamekitEd",
-			"Chessy", 
+			"Chessy",
 			// "ScriptEditorPlugin" 
 		});
 	}

@@ -10,7 +10,8 @@
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"Engine",
-				"AIModule"
+				"AIModule",
+				"CoreUObject"
 			]
 		},
 		{
@@ -30,7 +31,7 @@
 		{
 			"Name": "GamekitEd",
 			"Type": "Editor",
-			"LoadingPhase": "PostSplashScreen",
+			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"UnrealEd"
 			]
