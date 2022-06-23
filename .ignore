@@ -5,6 +5,7 @@
 Content
 DerivedDataCache
 Intermediate
+Mods
 Saved
 Script
 Shaders
@@ -14,6 +15,14 @@ Plugins/Gamekit/.github
 Plugins/Gamekit/Content
 Plugins/Gamekit/Docs
 Plugins/Gamekit/Intermediate
+Plugins/Gamekit/Script
 Plugins/Gamekit/Shaders
 Plugins/GamekitTests/Content
 Plugins/GamekitTests/Intermediate
+Plugins/GKLua/.github
+Plugins/GKLua/Content
+Plugins/GKLua/Docs
+Plugins/GKML/.github
+Plugins/GKML/Content
+Plugins/GKML/Docs
+Plugins/GKML/Intermediate
