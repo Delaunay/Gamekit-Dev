@@ -39,6 +39,11 @@
 	],
 	"Plugins": [
 		{
+			"Name": "Gamekit",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/"
+		},
+		{
 			"Name": "FastBuildController",
 			"Enabled": false
 		},

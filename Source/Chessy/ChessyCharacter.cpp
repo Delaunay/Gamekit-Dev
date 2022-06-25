@@ -1,8 +1,11 @@
 // BSD 3-Clause License Copyright (c) 2022, Pierre Delaunay All rights reserved.
 
+// Include
 #include "ChessyCharacter.h"
-#include "Gamekit/Grid/GKHexGridUtilities.h"
 
+//#include "Gamekit/Grid/GKHexGridUtilities.h"
+
+// Unreal Engine
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/DecalComponent.h"
@@ -96,7 +99,7 @@ AChessyCharacter::AChessyCharacter()
     if (CursorMeshAsset.Succeeded())
     {
         MeshCursor->SetStaticMesh(CursorMeshAsset.Object);
-        GridSize() = UGKHexGridUtilities::GetHexSize(CursorMeshAsset.Object->GetBoundingBox().GetSize());
+        // GridSize() = UGKHexGridUtilities::GetHexSize(CursorMeshAsset.Object->GetBoundingBox().GetSize());
     }
 
     static ConstructorHelpers::FObjectFinder<UMaterial> CusorMaterialAsset(
@@ -142,9 +145,9 @@ void AChessyCharacter::Tick(float DeltaSeconds)
             // FRotator CursorR = CursorFV.Rotation();
             // GetCursorToWorld()->SetWorldRotation(CursorR);
 
-            auto CursorPosition =
-                    UGKHexGridUtilities::SnapToGrid(GridSize(), TraceHitResult.Location - FVector(0, 0, 1));
-            GetCursorToWorld()->SetWorldLocation(CursorPosition + FVector(0, 0, 0.01));
+            // auto CursorPosition =
+            //         UGKHexGridUtilities::SnapToGrid(GridSize(), TraceHitResult.Location - FVector(0, 0, 1));
+            // GetCursorToWorld()->SetWorldLocation(CursorPosition + FVector(0, 0, 0.01));
         }
     }
 }
