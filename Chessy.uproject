@@ -256,10 +256,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "CommonConversation",
-			"Enabled": true
-		},
-		{
 			"Name": "ComputeFramework",
 			"Enabled": true
 		},
@@ -277,10 +273,6 @@
 		},
 		{
 			"Name": "ExampleAssetEditor",
-			"Enabled": true
-		},
-		{
-			"Name": "GameFeatures",
 			"Enabled": true
 		},
 		{
